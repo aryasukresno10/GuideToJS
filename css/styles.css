@@ -402,26 +402,61 @@ img {
     justify-content: space-around;
 }
 
-
-/*==================== TESTING ====================*/
-.testing__container {
-    padding: 1rem;
-    background-color: var(--header-color);
-    border-radius: 1.5rem;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.testing__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-}
-
-
 /*==================== FOOTER ====================*/
+.footer {
+    padding-top: 2rem;
+}
 
+.footer__container {
+    row-gap: 3.5rem;
+}
 
+.footer__bg {
+    background-color: var(--first-color-second);
+    padding: 2rem 0 3rem;
+}
+
+.footer__title {
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.footer__subtitle {
+    font-size: var(--normal-font-size);
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.footer__link:hover {
+    color: var(--first-color-lighter);
+}
+
+.footer__social {
+    font-size: 1.25rem;
+    margin-right: var(--mb-1-5);
+}
+
+.footer__social:hover {
+    color: var(--first-color-lighter);
+}
+
+.footer__copyright {
+    font-size: var(--smaller-font-size);
+    text-align: center;
+    color: var(--text-color-light);
+    margin-top: var(--mb-3);
+}
+
+.footer__title,
+.footer__subtitle,
+.footer__link,
+.footer__social {
+    color: #000;
+}
 /*========== SCROLL UP ==========*/
 
 
